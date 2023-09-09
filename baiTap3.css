@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  padding: 10px;
+  display: flex;
+}
+h1 {
+  margin-bottom: 5px;
+}
+
+.left_content {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(91, 155, 213);
+}
+.right_content {
+  height: auto;
+}
+.ul_li {
+  display: flex;
+}
+
+.ulli_left {
+  width: 50%;
+}
+ul {
+  list-style: none;
+}
+li:before {
+  content: "✔";
+  margin-right: 10px;
+  color: green;
+}
+article {
+  margin-bottom: 10px;
+}
