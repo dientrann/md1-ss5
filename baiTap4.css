@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.content {
+  padding: 20px;
+  background-color: rgb(242, 243, 245);
+}
+
+.top_content {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item_content {
+  width: 30%;
+  background-color: white;
+}
+
+.img {
+  background-color: rgb(91, 155, 213);
+  height: 150px;
+}
+h2,
+p {
+  margin: 15px 10px;
+}

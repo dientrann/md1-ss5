@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 30px;
+}
+h1 {
+  padding: 50px 100px;
+  text-align: center;
+}
+.body_content {
+  display: flex;
+}
+.left_content {
+  width: 40%;
+  border: 1px solid gray;
+  padding: 20px;
+}
+h2,
+p {
+  margin: 10px;
+}
